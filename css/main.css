@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background:  #f7f7f7 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    display: flex;
+}
+.logo a {
+    color:  #9d9d9d ;
+    margin: 0 1rem;
+    transition: .5s;
+}
+.logo a:hover {
+    color: #000;
+}
+.logo a img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.icon-nav img{
+    width: 180px;
+    height: 100px;
+}
+.login{
+    display: flex;
+}
+.login a{
+    color:  #9d9d9d ;
+    margin: 0 1rem;
+    transition: .5s;
+}
+.login a:hover{
+    color: #000;
+}
+.login a img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.section-topbor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-top-img {
+    margin: 4rem 0;
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('/img/3910998.jpg');
+}
+
+.section-discord {
+    margin: 0 12rem;
+    display: flex;
+    justify-content: start;
+}
+.section-discord h4{
+    padding: 2px 0;
+    padding-left: 14px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background: #343434;
+    color: #fff;
+}
+.section-discord span{
+    padding: 3px 0;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.section-welcome {
+    margin: 1rem 12rem;
+}
+.section-welcome h1{
+    font-size: 50px;
+}
+.section-welcome p {
+    color: #fff;
+    background: #343434;
+    border-radius: 10px ;
+    padding: 7px;
+    width: 230px;
+    height: 40px;
+}
+.section-welcome p a{
+    color: #f7f7f7;
+    padding-right: 7px;
+    padding-left: 10px;
+}
+
+.section-iteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-iteam .section-iteam-top {
+    margin: 0 2rem;
+}
+.section-top .box-topbor {
+    margin: 2rem 0;
+    width: 300px;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo-bor {
+    margin-top: 2.5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo-bor img{
+    margin: 0 1rem;
+    width: 40px;
+}
+
+
+
+.section-iteam-now{
+    align-items: center;
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-iteam-now i{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    color: yellow;
+}
+.section-iteam-now h1 {
+    font-size: 23px;
+}
+.iteam-top {
+    display: flex;
+    padding: 1rem 0;
+}
+.box-iteam {
+    margin: 0 1rem;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box-iteam  .logo-iteam img {
+    width: 300px;
+}
+.box-iteam .top-p {
+    margin: 10px 1rem;
+    text-align: center;
+    background: #ff4655;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+.box-iteam h2{
+    color: #ff4655;
+    margin: 0 1rem;
+}
+.box-iteam .coin {
+    margin: 0 1rem;
+    color:  #8e8e8e ;
+}
+.box-iteam a{
+    display: flex;
+    justify-content: center;
+}
+.box-iteam button {
+    padding-top: 5px;
+    padding-left: 23px;
+    display: flex;
+    margin: 1rem 1rem;
+    font-size: 17px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: #000;
+    background: none;
+    border: 1px solid #000;
+    transition: .3s;
+}
+.box-iteam button i{
+    text-align: center;
+    font-size: 23px;
+}
+.box-iteam button:hover{
+    color: #fff;
+    background: #000;
+}
+.pan-top h3{
+    margin-top: 1rem;
+    text-align: center;
+    color: #9d9d9d;
+    font-size: 17px;
+}
+
+
+.read {
+    display: flex;
+    justify-content: center;
+}
+.section-read {
+    padding: 1rem 0;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    width: 1360px;
+    height: 160px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-read h1{
+    color: #ff4655;
+}
+.section-read h4 {
+    color: #9d9d9d;
+}
+.section-read a h3 {
+    margin-top: 1rem;
+    color: #ff4655;
+    background: none;
+}
+
+footer {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+    margin-top: 5rem;
+    width: 100%;
+    height: 180px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
